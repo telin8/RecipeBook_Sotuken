@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecipeBook_Sotuken</string>
+    <string name="title_recipe">レシピ</string>
+    <string name="title_resito">レシート</string>
+    <string name="title_kakeibo">家計簿</string>
+    <string name="title_buylist">買い物リスト</string>
+</resources>
