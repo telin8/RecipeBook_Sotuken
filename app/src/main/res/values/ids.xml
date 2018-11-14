@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="re_cate" type="id"/>
+    <item name="re_id" type="id"/>
+    <item name="re_name" type="id"/>
+
+</resources>
