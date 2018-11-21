@@ -4,4 +4,11 @@
     <string name="title_resito">レシート</string>
     <string name="title_kakeibo">家計簿</string>
     <string name="title_buylist">買い物リスト</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="calendar">カレンダー ></string>
+    <string name="title_nengetu">2018年11月</string>
+
 </resources>
