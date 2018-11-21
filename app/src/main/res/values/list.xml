@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="category">
-        <item>鶏肉料理</item>
-        <item>豚肉料理</item>
-        <item>牛肉料理</item>
+        <item>野菜</item>
+        <item>お肉</item>
+        <item>魚介</item>
+        <item>スープ</item>
+        <item>ご飯物</item>
+        <item>麺、パスタ</item>
+        <item>お菓子</item>
+        <item>その他</item>
     </string-array>
     <string-array name="price">
         <item>～500円</item>
