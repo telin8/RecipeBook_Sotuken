@@ -20,6 +20,8 @@
             app:layout_constraintRight_toRightOf="parent"
             app:menu="@menu/navigation"/>
     <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             android:orientation="horizontal"
             android:layout_width="379dp"
             app:layout_constraintRight_toRightOf="parent"
@@ -28,21 +30,19 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_height="46dp" android:layout_marginTop="4dp"
             app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="4dp">
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="4dp"> <requestFocus />
 
 
         <EditText
-                android:focusable="false"
-                android:focusableInTouchMode="false"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:inputType="textPersonName"
-                android:text="Name"
+                android:hint="検索したいレシピ"
                 android:ems="10"
                 android:id="@+id/searchRecipe"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="4dp" app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginStart="4dp"> <requestFocus /></EditText>
+                android:layout_marginStart="4dp"> </EditText>
 
 
         <Button
@@ -54,6 +54,8 @@
                 android:id="@+id/searchbutton"/>
     </LinearLayout>
     <LinearLayout android:orientation="horizontal"
+                  android:focusable="true"
+                  android:focusableInTouchMode="true"
                   android:layout_width="379dp"
                   app:layout_constraintRight_toRightOf="parent"
                   app:layout_constraintLeft_toLeftOf="parent"
@@ -61,13 +63,13 @@
                   app:layout_constraintTop_toTopOf="parent"
                   android:layout_height="45dp" android:layout_marginTop="4dp"
                   app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.099"
-                  app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="4dp">>
-
+                  app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="4dp"><requestFocus />
         <Spinner
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginLeft="8dp"
+
                 android:entries="@array/price"
                 android:id="@+id/price_drop"
                 tools:ignore="MissingConstraints"
@@ -101,13 +103,10 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:focusable="true"
-            android:focusableInTouchMode="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView" android:layout_marginRight="11dp"/>
-
-    <requestFocus />/>
+            android:id="@+id/test" android:layout_marginRight="11dp"/>
+   />
 
 
 </android.support.constraint.ConstraintLayout>

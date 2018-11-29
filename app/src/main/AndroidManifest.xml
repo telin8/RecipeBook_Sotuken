@@ -3,6 +3,7 @@
           package="com.example.tamayamaryo.recipebook_sotuken">
 
     <application
+
             android:name=".RecipeAppli"
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
@@ -11,6 +12,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
+                android:screenOrientation="portrait"
                 android:name=".MainActivity"
                 android:label="@string/app_name">
             <intent-filter>
@@ -27,7 +29,11 @@
         </activity>
         <activity android:name=".resitoActivity">
         </activity>
+
         <activity android:name=".RecipeDetail"></activity>
+        <activity android:name=".TestActivity">
+        </activity>
+
     </application>
 
 </manifest>

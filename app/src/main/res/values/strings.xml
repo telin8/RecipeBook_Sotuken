@@ -10,5 +10,19 @@
     <string name="title_notifications">Notifications</string>
     <string name="calendar">カレンダー ></string>
     <string name="title_nengetu">2018年11月</string>
+    <string name="alert_text">金額を半角で入力</string>
+    <string name="insert">追加項目を入力してください</string>
+    <string name="date_info">yyyy/mm/ddで入力</string>
+    <string name="insert_gamen">追加画面へ</string>
 
+    <string-array name="genre">
+        <item>生活費</item>
+        <item>医療費</item>
+        <item>食費</item>
+        <item>給料</item>
+    </string-array>
+    <string-array name="or">
+        <item>支出</item>
+        <item>収入</item>
+    </string-array>
 </resources>

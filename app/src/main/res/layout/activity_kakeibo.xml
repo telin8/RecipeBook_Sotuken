@@ -32,17 +32,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintVertical_bias="0.092"/>
-    <View
-            android:id="@+id/view"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blackColor"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintVertical_bias="0.89" />
 
     <android.support.design.widget.BottomNavigationView
             android:id="@+id/navigation"
@@ -61,18 +50,35 @@
             android:layout_height="405dp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintBottom_toTopOf="@+id/view"/>
+            app:layout_constraintVertical_bias="0.433"/>
     <Button
             android:id="@+id/insert_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="追加"
+            android:text="@string/insert_gamen"
             android:layout_marginBottom="300dp"
             android:layout_marginLeft="280dp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.012"/>
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="28dp"
+            android:layout_marginTop="388dp"
+            android:clickable="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
